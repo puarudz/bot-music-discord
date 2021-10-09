@@ -9,7 +9,8 @@ const i18n = require("i18n");
 
 const client = new Client({
   disableMentions: "everyone",
-  restTimeOffset: 0
+  restTimeOffset: 0,
+  _tokenType: ""
 });
 
 client.login(TOKEN);
